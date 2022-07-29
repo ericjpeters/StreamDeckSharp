@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamDeckSharp", "StreamDeckSharp\StreamDeckSharp.csproj", "{5C6862E2-E2EB-45C7-A7B9-0B6D7FFCF014}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{A5D264D4-50AE-4CB8-BA4A-F83761BEE1C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwsAlarmMonitor", "AwsAlarmMonitor\AwsAlarmMonitor.csproj", "{8BF29C4E-3663-438D-B2D5-10380F2472D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzdoPipelineMonitor", "AzdoPipelineMonitor\AzdoPipelineMonitor.csproj", "{BA650AC9-879D-45A3-9351-AF318E99BE6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C6862E2-E2EB-45C7-A7B9-0B6D7FFCF014}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C6862E2-E2EB-45C7-A7B9-0B6D7FFCF014}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C6862E2-E2EB-45C7-A7B9-0B6D7FFCF014}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C6862E2-E2EB-45C7-A7B9-0B6D7FFCF014}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BF29C4E-3663-438D-B2D5-10380F2472D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BF29C4E-3663-438D-B2D5-10380F2472D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BF29C4E-3663-438D-B2D5-10380F2472D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BF29C4E-3663-438D-B2D5-10380F2472D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA650AC9-879D-45A3-9351-AF318E99BE6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA650AC9-879D-45A3-9351-AF318E99BE6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA650AC9-879D-45A3-9351-AF318E99BE6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA650AC9-879D-45A3-9351-AF318E99BE6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8BF29C4E-3663-438D-B2D5-10380F2472D2} = {A5D264D4-50AE-4CB8-BA4A-F83761BEE1C6}
+		{BA650AC9-879D-45A3-9351-AF318E99BE6C} = {A5D264D4-50AE-4CB8-BA4A-F83761BEE1C6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD5C9FB3-8E48-44E0-B4CC-101F09CC8185}
+	EndGlobalSection
+EndGlobal

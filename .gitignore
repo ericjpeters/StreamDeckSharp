@@ -1,0 +1,10 @@
+DistributionTool.exe
+.cr
+.vs
+Dist
+/AwsAlarmMonitor/bin
+/AwsAlarmMonitor/obj
+/AzdoPipelineMonitor/bin
+/AzdoPipelineMonitor/obj
+/StreamDeckSharp/bin
+/StreamDeckSharp/obj
